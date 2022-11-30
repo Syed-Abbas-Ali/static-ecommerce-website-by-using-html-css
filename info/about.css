@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(163, 153, 153);
+}
+  /* body */
+  .heading{
+      margin: 10%;
+      margin-left: 40%;
+      font-size: 40px;
+  }
+
+  .main{
+      background-color: white;
+      height: 60%;
+      width:100%;
+      display:flex
+  }
+  .img{
+      height:90%;
+  }
+  .img img{
+      height:80%;
+      margin:10%;
+  }
+  .righttext{
+      margin-top: 20%;
+      margin:8%;
+      width: 60%;
+      height:100vh;
+
+  }

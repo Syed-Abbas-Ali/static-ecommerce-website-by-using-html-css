@@ -1,0 +1,121 @@
+.main-flex{
+    display:flex;
+    margin-top:100px;
+}
+
+
+.pcontainer{
+    width: 60%;
+    height: 100vh;
+
+
+    
+    /* background-color: rgb(214, 145, 61); */
+
+}
+.title{
+    margin-left: 7%;
+    margin-bottom: 3%;
+}
+.flex{
+    display: flex;
+    height: 60vh;
+}
+
+.sideimgbutton{
+    margin-left: 2%;
+    width:15%;
+    height:100%;
+    background-color: rgb(245, 245, 248);
+    flex-wrap:wrap-reverse;
+
+}
+.disimgcont{
+    height:"100%";
+    width:"50%";
+    margin-left: 2%;
+}
+
+
+
+/* icons on hover */
+.sideimgbutton img{
+width:70%;
+height: 25%;
+box-shadow: 2px 2px black;
+
+}
+
+.sideimgbutton img:hover{
+    width:70%;
+    height: 25%;
+    box-shadow: 1px 1px black;
+    
+    }
+
+            /* display img */
+
+            .disimgcont img{
+                width:70%;
+                height: 70%;
+                margin:5% ;
+                display:none;
+                }
+
+                #img1{
+                    width:90%;
+                    height:90%;
+                    margin:10% ;
+                    display:block;
+                    }
+
+
+
+                    /* botton */
+
+                    .butframe{
+                        display:flex;
+                        margin: 5%;
+                     
+                        
+                    }
+              .but{
+                  display: flex;
+                  width:30%;
+                  height:40% ;
+                  background-color: orange;
+                  margin-inline-start: 15px;
+                  box-shadow: 2px 2px 2px black;
+                  justify-items: center;
+              }
+
+              .but:hover{
+                  box-shadow: 1px 1px 1px black;
+              }
+              .but img{
+                  width:30px;
+                  height: 30px;
+                  margin-left:25px;
+                  margin-top: 3px;
+              }
+              .but h4{
+                  margin-top: 10px;
+                  margin-left: 5px;
+                  margin-bottom: 10px;
+                  color:aliceblue;
+              }
+
+              /* right */
+              .right-side{
+                  width: 40%;
+                  height: 60vh;
+                  
+              }
+
+              .table{
+                  height:"100%";
+                  width:90%;
+              }
+
+              
+
